@@ -11,7 +11,7 @@ export class AuthGuard implements CanActivate {
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean | UrlTree {
     if (this.authService.isAuthenticated() && this.authService.getCurrentUserRole() == "admin") {
-      return true; // Allow access if authenticated
+      return true; // Allow access if authenticated - test
     } else {
       // Redirect to login page if not authenticated
       return this.router.createUrlTree(['/login'], { queryParams: { returnUrl: state.url } });

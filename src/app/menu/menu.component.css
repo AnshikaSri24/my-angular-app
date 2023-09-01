@@ -1,0 +1,89 @@
+.menu {
+  width: 250px;
+  height: 100%;
+  background-color: #1e3f8f; /* Blue background color */
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: width 0.3s;
+}
+
+.menu.collapsed {
+  width: 60px;
+}
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.menu-list a:hover {
+  background-color: #12478f; /* Darker blue color on hover */
+}
+
+.menu-list a.active {
+  background-color: #0d366f; /* Active item color */
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  display: block;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #0d366f; /* Darker blue color on hover */
+}
+
+
+.menu.collapsed {
+  width: 60px;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  display: block;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #0d366f; /* Darker blue color on hover */
+}

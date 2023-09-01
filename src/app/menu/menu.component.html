@@ -1,0 +1,11 @@
+<nav *ngIf="isLoggedIn" [ngClass]="{'menu': true, 'collapsed': collapsed}">
+  <div class="menu-header">
+    <h1>Menu</h1>
+  </div>
+  <ul class="menu-list">
+    <li><a routerLink="/book/book-list">Book List</a></li>
+    <li><a routerLink="/book/book-author">Book Author</a></li>
+  </ul>
+  <button class="logout-button" (click)="logout()">Logout</button>
+  <button class="toggle-button" (click)="toggleMenu()">Toggle Menu</button>
+</nav>

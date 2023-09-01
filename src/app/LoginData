@@ -1,0 +1,72 @@
+[
+  {
+    "username": "user1",
+    "password": "password1",
+    "firstname": "John",
+    "lastname": "Doe",
+	"Roles": "admin"
+  },
+  {
+    "username": "user2",
+    "password": "password2",
+    "firstname": "Jane",
+    "lastname": "Smith",
+	"Roles": "contributor"
+  },
+  {
+    "username": "user3",
+    "password": "password3",
+    "firstname": "Michael",
+    "lastname": "Johnson",
+	"Roles": "reader"
+  },
+  {
+    "username": "user4",
+    "password": "password4",
+    "firstname": "Emily",
+    "lastname": "Williams",
+	"Roles": "writer"
+  },
+  {
+    "username": "user5",
+    "password": "password5",
+    "firstname": "David",
+    "lastname": "Brown",
+	"Roles": "writer"
+  },
+  {
+    "username": "user6",
+    "password": "password6",
+    "firstname": "Sarah",
+    "lastname": "Miller",
+	"Roles": "writer"
+  },
+  {
+    "username": "user7",
+    "password": "password7",
+    "firstname": "Christopher",
+    "lastname": "Anderson",
+	"Roles": "writer"
+  },
+  {
+    "username": "user8",
+    "password": "password8",
+    "firstname": "Jessica",
+    "lastname": "Martinez",
+	"Roles": "writer"
+  },
+  {
+    "username": "user9",
+    "password": "password9",
+    "firstname": "Daniel",
+    "lastname": "Lopez",
+	"Roles": "writer"
+  },
+  {
+    "username": "user10",
+    "password": "password10",
+    "firstname": "Ashley",
+    "lastname": "Garcia",
+	"Roles": "writer"
+  }
+]
